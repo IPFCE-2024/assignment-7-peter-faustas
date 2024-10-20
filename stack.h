@@ -1,9 +1,11 @@
 #pragma once
-
+#include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
+#include <assert.h>
 
 typedef struct node {
-  int data;
+  long long int data;
   struct node *next;
 } node;
 
